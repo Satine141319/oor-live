@@ -345,18 +345,442 @@ const ACR_SECRET   = 'qHQWzdADnFQWNePZZ9cBVmOgQNw7CdwjHqQww0C7';
 // ─────────────────────────────────────────────────────
 
 const DEFAULT_SONGS = [
-  { id:'wherever',  name:'Wherever You Are',      album:'Nichesynka',
-    lyrics:`[Verse 1]\n時間停了\n世界只剩你和我\n[Chorus]\nWherever you are\nI always make you smile\nWherever you are\nI'm always by your side\nWhatever we are\nwhatever we are\n[Verse 2]\n記憶中的那一天\n你說你永遠不走\n[Chorus]\nWherever you are\nI always make you smile\nWherever you are\nI'm always by your side` },
-  { id:'kanzen',    name:'Kanzen Kankaku Dreamer', album:'Nichesynka',
+  // ── DETOX (2025) ──────────────────────────────────────
+  { id:'nasty', name:'NASTY', album:'DETOX', ytId:'0PExpYH-hOQ',
+    lyrics:`[Chorus]
+Wanna scream
+Wanna scream like a banshee
+In the street
+And the energy manic
+Dangerous
+We don't wanna be classy
+Try to be good but we too damn nasty
+Make a scene make a scene
+Make em panic
+Bunch a wolves
+And we reppin sheep's fashion
+Fingers up it's about to get trashy
+Try to be good but we too damn nasty
+[Verse 1]
+Stop losing focus
+You think we don't notice
+That it's all just a game to you
+Look at this damage
+Goddamn you a savage
+How much more do you wanna lose
+[Pre-Chorus]
+We're playin dirty dirty
+We're in control
+What's the hurry hurry
+Lookin like you seen a ghost
+[Chorus]
+Wanna scream
+Wanna scream like a banshee
+In the street
+And the energy manic
+Dangerous
+We don't wanna be classy
+Try to be good but we too damn nasty
+[Verse 2]
+不快に満ちた下剋上劇
+軽蔑の眼差し
+怒りを超えて生まれる衝動
+今狼煙をあげる
+[Outro]
+Too damn nasty
+We too damn nasty` },
+  { id:'dystopia', name:'Dystopia', album:'DETOX', ytId:'bMTGGfQ0Vfs',
+    lyrics:`[Verse 1]
+Try to find some inner peace
+Apocalyptic tendencies
+We blame it on a whisper
+For the shame that's in our system
+Pain in all our yesterdays
+And fears that keep us wide awake
+We're looking for a reason
+When did we become the heathens?
+[Pre-Chorus]
+My colors bleed I'm turning blue
+You say god speed I'll follow you
+We got no place to go
+And nothing to lose
+[Chorus]
+Find euphoria in dystopia
+Let our souls become the magnets
+No running from the sadness
+Find euphoria in dystopia
+Where there's love and understanding
+No running from the sadness
+[Verse 2]
+暗がりを抜けて作る
+不確かなメロディー
+繋ぐのは君と僕
+No more getting in my own way
+[Pre-Chorus]
+目も眩むスピードで
+青く滲んだ僕は
+失うものも行くあてもない
+[Chorus]
+Find euphoria in dystopia
+Let our souls become the magnets
+No running from the sadness
+Find euphoria in dystopia
+Where there's love and understanding
+No running from the sadness` },
+  { id:'tropical', name:'Tropical Therapy', album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+I wanna go, fly
+To paradise tonight
+I wanna go, ride
+The first thing on my mind
+[Pre-Chorus]
+I need a get get get get getaway
+Get out of this mess I made
+[Chorus]
+Set me free
+Tropical therapy
+Getaway
+[Verse 2]
+Close my eyes
+Imagine something beautiful
+Breathing in
+The salt air and the sound of it
+[Pre-Chorus]
+I need a get get get get getaway
+Get out of this mess I made
+[Chorus]
+Set me free
+Tropical therapy
+Getaway` },
+  { id:'delusionall', name:'Delusion:All', album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+They'll conquer us if we divide
+No one will listen to you
+We gotta stand up and draw a line
+It's time to fall back or shoot
+[Chorus]
+Why does it feel
+Like they don't feel anything
+I pray there's a future behind those walls
+But maybe I'm delusional
+Let's make a deal
+Pretend this bastard democracy
+Is just how we want it
+And we're not exhausted
+But maybe we're delusional
+We're all de-fucking-lusional
+[Verse 2]
+When everything's supposed to
+Happen for a reason
+And every talking head
+Expects ya to believe them
+But we don't need them
+We are the kingdom
+We know the amount that we have shared
+Was never even
+[Chorus]
+Why does it feel
+Like they don't feel anything
+I pray there's a future behind those walls
+But maybe I'm delusional
+Let's make a deal
+Pretend this bastard democracy
+Is just how we want it
+And we're not exhausted
+But maybe we're delusional
+We're all de-fucking-lusional` },
+  { id:'partysover', name:"Party's Over", album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+傘もささずにたたずむ君
+雨にうたれりゃ寒かろに
+Get you out of my head
+Get you out of my bed
+Get you out of my life
+後には引けない
+前にもいけない
+たたずむしかないのさ
+[Pre-Chorus]
+イカれ狂う君を見て
+Like a shark
+In the water
+When I'm bleeding
+[Chorus]
+I can't replace
+Time we waste
+Giving second chances
+When we're dancing with the snakes
+Don't be fake
+Say it to my face
+Karma's at the door
+Get out of my house
+The party's over
+[Verse 2]
+人の傘に隠れでしゃばる君
+化けの皮剥がしゃ切なかろに
+[Pre-Chorus]
+Don't play with matches
+You're covered in gas
+If I'm in the shadows
+Who's watching your back
+I'm under attack
+You're under attack
+There's nowhere left to hide
+[Chorus]
+Karma's at the door
+Get out of my house
+The party's over` },
+  { id:'puppets', name:"Puppets Can't Control You", album:'DETOX', ytId:'bMTGGfQ0Vfs',
+    lyrics:`[Chorus]
+Damned if I do
+It's way too late to fix it
+I'll be damned if I don't
+The bane of my existence
+They said damn kid you gotta try
+Even if you never win
+You can't pretend
+You'll never be happy again
+[Verse 1]
+Clip his wings he don't deserve that halo
+I'm losing faith in everyone again
+If the TV stations sell their lies on cable
+Then we're so blind that we'll be tuning in
+But I don't know where to start
+[Chorus]
+Damned if I do
+It's way too late to fix it
+I'll be damned if I don't
+The bane of my existence
+They said damn kid you gotta try
+Even if you never win
+You can't pretend
+You'll never be happy again
+[Bridge]
+Holding on to nothing
+'Til it turns into something
+Don't like who I'm becoming
+I can't keep running
+Searching for an answer
+Re-reading every chapter
+There's no happy ever after when it's over
+[Outro]
+Beat me, break me down but I'm still standing
+Picking pieces off the ground again
+If one day I fall, just hope I stick the landing
+Not at the gates` },
+  { id:'tinypieces', name:'Tiny Pieces', album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+Wish I could forget how it felt
+When you said that it's over
+Staring at your lipstick
+On the wineglass by the sofa
+Had the same fight twenty times in a night
+I regret that
+It's not the first time that you left
+It's the first time you didn't come back
+[Pre-Chorus]
+It's how I spend my days
+It's all I think about
+This ain't a dream
+I'm stuck in a nightmare
+Get me out
+[Chorus]
+Cause I'm broken
+Ain't nobody gonna fix me
+And I'm choking
+On the pictures and the memories
+Every time I do it to myself
+Never seem to learn I'm crying for help
+Cause I'm broken
+Ain't nobody gonna fix me
+Yea you broke me into tiny pieces
+[Verse 2]
+I can see the ghost of your headlights
+Fade as you drive away
+Took the one thing that I can't live without
+For a single day
+Had the same fight twenty times in a night
+I regret that
+It's not the first time that I've prayed
+It's the first time I prayed you'd come back
+[Chorus]
+Cause I'm broken
+Ain't nobody gonna fix me
+And I'm choking
+On the pictures and the memories
+Every time I do it to myself
+Never seem to learn I'm crying for help
+Cause I'm broken
+Ain't nobody gonna fix me
+Yea you broke me into tiny pieces` },
+  { id:'thiscantbeus', name:"This Can't Be Us", album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+I hear your voice just like a song
+And your melody
+It tells me something's wrong
+They tell me that it won't be long
+But in my head
+It feels like you've already gone
+Oh I don't know what to say
+[Chorus]
+This can't be us
+I don't know how to say goodbye
+This can't be us
+You've been the greatest part of my life
+This can't be us
+Can we turn back the time
+This can't be us
+[Bridge]
+I pray you're waking up
+You gave more than enough
+I won't forget your love
+[Verse 2]
+You've been my rock for way too long
+And I'm sorry that I've been a rolling stone
+You showed me how to build a home
+You said my heart is always with you when you're gone
+Wish you could open up your eyes
+[Chorus]
+This can't be us
+I don't know how to say goodbye
+This can't be us
+You've been the greatest part of my life
+This can't be us
+Can we turn back the time
+This can't be us
+[Outro]
+I pray you're waking up
+You gave more than enough
+I won't forget your love` },
+  { id:'matter', name:'+Matter', album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+Should we be sharing
+All that we carry?
+I know songs have been sung
+But change has yet to come
+[Pre-Chorus]
+If love is war
+Come crash into my vacant arms
+Embrace explore
+We're supernova racing
+[Chorus]
+Do I matter to you
+Do I matter to you
+Do I matter to you
+You matter to me
+You matter to me
+You matter and we all matter
+[Verse 2]
+Left to right
+Will you take, will you take my hand
+Hold it tight
+Feel the waves as our atoms collide
+Do you saint do you sin
+When you look within
+Is it faith is it hate
+Pulling you back in
+Do you wanna believe
+There's a world to win
+Do you wanna believe
+You matter to me
+[Chorus]
+Do I matter to you
+Do I matter to you
+Do I matter to you
+You matter to me
+You matter to me
+You matter and we all matter` },
+  { id:'curiosity', name:'C.U.R.I.O.S.I.T.Y. feat. Paledusk & CHICO CARLITO', album:'DETOX', ytId:'',
+    lyrics:`[Intro]
+Time to wake up
+There's a war inside
+Bless the marauders
+Kiss them all goodbye
+[Verse 1]
+We can stay walkin
+On a dotted line
+Or we can make our own path
+I'm not afraid
+I'm ready for the other side
+Will you have my back
+[Chorus]
+C everything that
+U really fucking
+R I O S and I hate realiTy
+Sometimes I don't know
+Y my CURIOSITY
+C.U.R.I.O.S. and I.T.Y.
+my CURIOSITY
+[Verse 2]
+47段目の階段
+登ったら俺の出番だ
+俺自身脳裏に好奇心
+天使と悪魔が裁判
+砕いた怠惰を跨いだ
+くだらねぇぜ Blah Blah
+Southsideの紅ブレない
+[Chorus]
+C.U.R.I.O.S. and I.T.Y.
+my CURIOSITY` },
+  { id:'thepilot', name:'The Pilot </3', album:'DETOX', ytId:'',
+    lyrics:`[Verse 1]
+Fifteen and crazy
+No one to save me
+You were the pilot
+When my world
+Came crashing down
+I cried for help
+You didn't notice
+I taste the salt
+From all my tears
+Burn in my mouth
+[Pre-Chorus]
+You dragged around my innocence
+I tried to mend our differences
+I shouldn't have to beg for this no
+[Chorus]
+I'm broken still
+But I'm not broken down
+That's how we grow
+If I break your heart
+Forgive my broken heart
+Don't let me go
+[Verse 2]
+I'm going home
+Wherever home is
+I've gotten used to having nobody around
+I was asleep behind the bar
+But I was dreaming of your arms
+Within myself I've come to find
+My safe and sound
+[Bridge]
+Love and
+Love and learn
+Love and learn
+Broken's beautiful
+[Outro]
+I'm going home
+Wherever home is
+I'm feeling low
+But not at my lowest` },
+  // ── 經典曲目 ───────────────────────────────────────────
+  { id:'wherever', name:'Wherever You Are', album:'Nichesynka', ytId:'',
+    lyrics:`[Verse 1]\n時間停了\n世界只剩你和我\n[Chorus]\nWherever you are\nI always make you smile\nWherever you are\nI'm always by your side\nWhatever we are\nwhatever we are` },
+  { id:'kanzen', name:'Kanzen Kankaku Dreamer', album:'Nichesynka', ytId:'',
     lyrics:`[Verse 1]\n誰かが言ってた\nこの世界は残酷だって\nそうだよ 残酷だよ\nでも それだけじゃない\n[Chorus]\n完全感覚 Dreamer\n夢を見てる まだ\n完全感覚 Dreamer\n誰にも負けない` },
-  { id:'clock',     name:'Clock Strikes',          album:'Nichesynka',
+  { id:'clock', name:'Clock Strikes', album:'Nichesynka', ytId:'',
     lyrics:`[Verse 1]\nDarling darling\nTime is running away from us tonight\nBut I don't care\n[Chorus]\nIf you wanna be loved\nbe loved\nbefore the clock strikes` },
-  { id:'tomorrows', name:'Tomorrows',              album:'35xxxv',
+  { id:'tomorrows', name:'Tomorrows', album:'35xxxv', ytId:'',
     lyrics:`[Verse 1]\n見えない明日を追いかけて\n何度も転んで 立ち上がって\n[Chorus]\n向こうへ 向こうへ\nどこまでも行こう\n明日へ 明日へ\n終わらない旅を\n[Bridge]\nYou know it's gonna be alright` },
-  { id:'coda',      name:'C.O.D.A.',               album:'Eye of the Storm',
-    lyrics:`[Intro]\nこの物語の終わりに\n[Verse 1]\n君のことを思い出す\nあの頃の僕らを\n[Chorus]\nC.O.D.A.\n君がいた場所で\nC.O.D.A.\nまた会えるから` },
-  { id:'storm',     name:'Eye of the Storm',       album:'Eye of the Storm',
-    lyrics:`[Verse 1]\nWalking through the fire\nThrough the storm alone\n[Chorus]\nIn the eye of the storm\nYou remain\nIn the eye of the storm\nI'm not afraid\nIn the eye of the storm\nCalling your name` }
+  { id:'storm', name:'Eye of the Storm', album:'Eye of the Storm', ytId:'',
+    lyrics:`[Verse 1]\nWalking through the fire\nThrough the storm alone\n[Chorus]\nIn the eye of the storm\nYou remain\nIn the eye of the storm\nI'm not afraid\nIn the eye of the storm\nCalling your name` },
+  { id:'deeperdeeper', name:'Deeper Deeper', album:'Jinsei x Boku =', ytId:'',
+    lyrics:`[歌詞待填入]\n請自行貼上歌詞` },
+  { id:'mightylongfall', name:'Mighty Long Fall', album:'35xxxv', ytId:'',
+    lyrics:`[歌詞待填入]\n請自行貼上歌詞` },
+  { id:'thebeginning', name:'The Beginning', album:'Jinsei x Boku =', ytId:'',
+    lyrics:`[歌詞待填入]\n請自行貼上歌詞` },
+  { id:'wearle', name:'We Are', album:'Ambitions', ytId:'',
+    lyrics:`[歌詞待填入]\n請自行貼上歌詞` },
 ];
 
 let songs = [], currentSongId = null, fontSize = 18, wakeLock = null;
@@ -429,8 +853,12 @@ function openSong(id) {
       </div>`).join('');
   }
   body.scrollTop = 0;
-  document.getElementById('ytSearchInput').value = 'One OK Rock ' + song.name;
-  searchYouTube();
+  if (song.ytId) {
+    playVideo(song.ytId, song.name);
+  } else {
+    document.getElementById('ytSearchInput').value = 'One OK Rock ' + song.name;
+    searchYouTube();
+  }
   showView('lyrics');
   renderSetlist();
 }
@@ -694,3 +1122,4 @@ window.addEventListener('load', () => {
 </script>
 </body>
 </html>
+
